@@ -12,11 +12,8 @@ The Plant Disease Detection System is a web application designed to help farmers
 ## Code Structure
 The project is organized into several key components:
 
-- **app.py**: The main file that runs the Streamlit web application. It handles user interactions, image uploads, and displays predictions.
-- **model.py**: Contains functions for loading the trained model and processing images for predictions.
-- **back_end.ipynb**: The notebook where the CNN model is trained using the plant disease dataset. It includes data preprocessing, model architecture definition, training, and evaluation steps.
+- **Frontend.py**: The main file that runs the Streamlit web application. It handles user interactions, image uploads, and displays predictions.
 - **requirements.txt**: A file listing all necessary Python packages required to run the application.
-- **datasets/**: A directory containing any additional datasets used in training or evaluation.
 
 ## Datasets
 The model was trained using a dataset sourced from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data).
@@ -67,8 +64,5 @@ The model used in this application is a Convolutional Neural Network (CNN) train
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 
